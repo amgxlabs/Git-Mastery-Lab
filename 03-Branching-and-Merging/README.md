@@ -79,8 +79,9 @@ echo "This is a conflicting line from feature branch" >> file.txt
 git add file.txt
 git commit -m "Add conflicting line on feature branch"
 
-### Merge conflict occurred:
+![Conflicting Lines Added](screenshots/git-conflicting-lines-added.png)
 
+### Merge conflict occurred:
 git checkout master
 git merge feature-branch
 
