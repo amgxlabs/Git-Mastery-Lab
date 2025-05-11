@@ -4,12 +4,6 @@ My personal Git practice lab to demonstrate a full understanding of Git version 
 
 ---
 
-## Project Duration
-
-May 8 – May 15, 2025
-
----
-
 ## Purpose of this Repository
 
 This repository documents my structured journey to master Git.  
@@ -59,6 +53,6 @@ This project has helped me:
 
 ## Contact
 
-[Your Name]  
-[Your LinkedIn]  
-[Your Portfolio Website (optional)]
+Amritpal Singh Gill
+LinkedIn: https://www.linkedin.com/in/amritgill7494/
+Contact-Email: amritgill7494@gmail.com
