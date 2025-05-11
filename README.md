@@ -54,6 +54,6 @@ This project has helped me:
 ## Contact
 
 Amritpal Singh Gill
-LinkedIn: https://www.linkedin.com/in/amritgill7494/
+LinkedIn: https://www.linkedin.com/in/amritgillx/
 Contact-Email: amritgill7494@gmail.com
 
