@@ -89,7 +89,7 @@ git reflog
 `git reflog` lists every HEAD movement:
 To recover a lost commit:
 
-git checkout def5678
+git checkout dcd1b84
 
 This puts you in detached HEAD at that commit.
 To save it as a branch:
