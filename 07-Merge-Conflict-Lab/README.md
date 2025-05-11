@@ -55,12 +55,6 @@ Since both branches had changes to the same file, Git detected a conflict.
 
 The file `file.txt` showed conflict markers:
 
-<<<<<<< HEAD
-Change from master branch
-=======
-Change from branch A
->>>>>>> branch-A
-
 I opened the file to inspect the conflict:
 
 ![Conflict Markers](screenshots/git-txtfile-with-conflict-markers.png)
