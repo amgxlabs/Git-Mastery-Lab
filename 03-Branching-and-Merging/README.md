@@ -107,7 +107,3 @@ In this lab I practiced:
 
 This gave me confidence working with branching workflows and understanding how to manage conflicts during merges.
 
-```
-
----
-
