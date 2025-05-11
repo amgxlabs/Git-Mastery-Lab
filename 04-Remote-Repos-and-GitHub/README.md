@@ -17,7 +17,7 @@ I created a new remote repository on GitHub named `remote-lab`.
 
 I cloned the remote repository using SSH:
 
-git clone git@github.com:your-username/remote-lab.git
+git clone git@github.com:amritgillx/remote-lab.git
 cd remote-lab
 
 ![Remote Lab Cloned](screenshots/git-remote-lab-cloned.png)
