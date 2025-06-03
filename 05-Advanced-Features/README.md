@@ -9,12 +9,14 @@ These commands are essential for managing complex real-world development workflo
 
 I created a new repository and made an initial commit on the `master` branch:
 
+```
 mkdir advanced-lab
 cd advanced-lab
 git init
 echo "File from master branch" > file.txt
 git add file.txt
 git commit -m "Initial commit on master branch"
+```
 
 ![Creating Master Branch](screenshots/git-creating-master-brach.png)
 
