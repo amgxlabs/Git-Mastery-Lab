@@ -88,6 +88,7 @@ git merge feature-branch
 ![Merge Conflict Issue](screenshots/git-merge-conflict-issue.png)
 
 I manually edited the file to resolve the conflict, then staged and committed the resolved file:
+Sorry, I forgot to take the screenshot for this step where I made changes inside the text file.
 
 git add file.txt
 git commit -m "Resolve merge conflict"
