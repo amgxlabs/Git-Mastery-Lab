@@ -38,7 +38,10 @@ git --version
 
 I explored the help system built into Git by running:
 
+```
 git --help
+```
+
 These commands display documentation for commands and usage examples.
 
 ![Git Help](screenshots/git-help.png)
@@ -55,7 +58,10 @@ git config --global user.email "amritgill7494@gmail.com"
 ```
 
 I confirmed the configuration using:
+
+```
 git config --list
+```
 
 ![Git Config List](screenshots/git-config-list.png)
 
