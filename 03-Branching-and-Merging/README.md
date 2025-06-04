@@ -9,12 +9,14 @@ I also simulated a merge conflict and resolved it to practice real-world collabo
 
 I initialized a test repository and committed a starting file:
 
+```
 mkdir branching-lab
 cd branching-lab
 git init
 echo "This is the main branch file" > file.txt
 git add file.txt
 git commit -m "Initial commit on main branch"
+```
 
 ![Git Init Main Branch](screenshots/git-init-main-branch.png)
 
@@ -24,7 +26,9 @@ git commit -m "Initial commit on main branch"
 
 I created a new feature branch and switched to it:
 
+```
 git checkout -b feature-branch
+```
 
 ![Git New Branch](screenshots/git-new-branch.png)
 
@@ -34,9 +38,11 @@ git checkout -b feature-branch
 
 I modified `file.txt` and committed the change:
 
+```
 echo "This is a new line from feature branch" >> file.txt
 git add file.txt
 git commit -m "Update file.txt from feature branch"
+```
 
 ![Feature Branch Update](screenshots/git-feature-branch-update-file.png)
 
@@ -46,7 +52,9 @@ git commit -m "Update file.txt from feature branch"
 
 I switched back to the master branch to prepare for merging:
 
+```
 git checkout master
+```
 
 ![Switch to Main](screenshots/git-switch-to-master.png)
 
@@ -56,7 +64,9 @@ git checkout master
 
 I merged the feature branch into master successfully:
 
+```
 git merge feature-branch
+```
 
 ![Branches Merged](screenshots/git-branches-merged.png)
 
@@ -68,30 +78,39 @@ To simulate a conflict, I made different edits to `file.txt` on both branches be
 
 ### On master branch:
 
+```
 echo "This is a conflicting line from master" >> file.txt
 git add file.txt
 git commit -m "Add conflicting line on master"
+```
 
 ### On feature branch:
 
+```
 git checkout feature-branch
 echo "This is a conflicting line from feature branch" >> file.txt
 git add file.txt
 git commit -m "Add conflicting line on feature branch"
+```
 
 ![Conflicting Lines Added](screenshots/git-conflicting-lines-added.png)
 
 ### Merge conflict occurred:
+
+```
 git checkout master
 git merge feature-branch
+```
 
 ![Merge Conflict Issue](screenshots/git-merge-conflict-issue.png)
 
 I manually edited the file to resolve the conflict, then staged and committed the resolved file:
 Sorry, I forgot to take the screenshot for this step where I made changes inside the text file.
 
+```
 git add file.txt
 git commit -m "Resolve merge conflict"
+```
 
 ![Conflict Resolved](screenshots/git-conflict-resolved.png)
 
