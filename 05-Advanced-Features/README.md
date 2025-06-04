@@ -26,7 +26,9 @@ git commit -m "Initial commit on master branch"
 
 I created and switched to a new feature branch:
 
+```
 git checkout -b feature-branch
+```
 
 ![Creating Feature Branch](screenshots/git-creating-feature-branch.png)
 
@@ -34,10 +36,12 @@ git checkout -b feature-branch
 
 ## Making Changes On master branch:
 
+```
 git checkout master
 echo "Another change on master branch" >> file.txt
 git add file.txt
 git commit -m "Change on master branch"
+```
 
 ![Change From Master Branch](screenshots/git-change-from-master-branch.png)
 
@@ -47,26 +51,31 @@ git commit -m "Change on master branch"
 
 I attempted to merge `feature-branch` into `master`, which caused a merge conflict:
 
+```
 git merge feature-branch
+```
 
 ![Merge Conflict](screenshots/git-merged-conflict.png)
 
 I resolved the conflict manually by editing `file.txt`, then staged and committed:
 
+```
 git add file.txt
 git commit -m "Resolve merge conflict"
-
+```
 ---
 
 ## Rebase vs Merge Demonstration
 
 I reset the merge and demonstrated a rebase workflow:
 
+```
 git reset --hard HEAD~1
 git checkout feature-branch
 git rebase master
 git checkout master
 git merge feature-branch
+```
 
 ![Rebase Master](screenshots/git-rebase-master.png)
 ![Git Log Graph](screenshots/git-log-graph.png)
@@ -89,14 +98,18 @@ Both get your work + the latest changes together. They just present the history 
 
 On `feature-branch`, I created a small commit:
 
+```
 echo "Hotfix commit" >> file.txt
 git add file.txt
 git commit -m "Hotfix commit on feature branch"
+```
 
 Then on `master`, I cherry-picked that commit:
 
+```
 git checkout master
 git cherry-pick <commit-hash>
+```
 
 ![Changes for Cherry-pick](screenshots/git-changes-in-feature-for-cherrypick.png)
 ![Cherry-pick on Master](screenshots/git-cherry-pick-in-master.png)
