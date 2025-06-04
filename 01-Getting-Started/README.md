@@ -26,7 +26,9 @@ Git is the actual version control system. GitHub is a cloud-hosted platform to s
 
 I verified that Git is installed on my system using the following command:
 
+```
 git --version
+```
 
 ![Git Version](screenshots/git-version.png)
 
@@ -47,8 +49,10 @@ These commands display documentation for commands and usage examples.
 
 I set my global Git identity to associate commits with my name and email:
 
+```
 git config --global user.name "Amrit"
 git config --global user.email "amritgill7494@gmail.com"
+```
 
 I confirmed the configuration using:
 git config --list
@@ -61,9 +65,11 @@ git config --list
 
 To familiarize myself with initializing a repository, I created a test folder and ran:
 
+```
 mkdir test-git-repo
 cd test-git-repo
 git init
+```
 
 ![Git Init](screenshots/git-init.png)
 
