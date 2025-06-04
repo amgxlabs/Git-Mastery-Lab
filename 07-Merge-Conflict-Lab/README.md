@@ -9,12 +9,14 @@ Intentionally creating and resolving conflicts is an essential skill for real-wo
 
 I created a new test repository and made an initial commit:
 
+```
 mkdir conflict-lab
 cd conflict-lab
 git init
 echo "Original line" > file.txt
 git add file.txt
 git commit -m "Initial commit"
+```
 
 ![Init + Log](screenshots/git-init-and-log-oneline.png)
 
@@ -24,17 +26,22 @@ git commit -m "Initial commit"
 
 I created two branches and modified `file.txt` differently on each:
 
+```
 git checkout -b branch-A
 echo "Change from branch A" > file.txt
 git add file.txt
 git commit -m "Change from branch A"
+```
 
+![Branches Created](screenshots/git-branches-created.png)
+
+```
 git checkout master
 echo "Change from master branch" > file.txt
 git add file.txt
 git commit -m "Change from master"
+```
 
-![Branches Created](screenshots/git-branches-created.png)
 ![Master Modification](screenshots/git-modification-from-master.png)
 
 ---
@@ -43,7 +50,9 @@ git commit -m "Change from master"
 
 I attempted to merge `branch-A` into `master`:
 
+```
 git merge branch-A
+```
 
 Since both branches had changes to the same file, Git detected a conflict.
 
@@ -54,7 +63,6 @@ Since both branches had changes to the same file, Git detected a conflict.
 ## Viewing Conflict Markers
 
 The file `file.txt` showed conflict markers:
-
 I opened the file to inspect the conflict:
 
 ![Conflict Markers](screenshots/git-txtfile-with-conflict-markers.png)
@@ -64,11 +72,12 @@ I opened the file to inspect the conflict:
 ## Resolving the Conflict
 
 I manually edited `file.txt` to resolve the conflict:
-
 Then I staged and committed the resolution:
 
+```
 git add file.txt
 git commit -m "Manually resolved the conflict."
+```
 
 ![Conflict Resolved](screenshots/git-conflict-resolved.png)
 
@@ -78,7 +87,9 @@ git commit -m "Manually resolved the conflict."
 
 I used the following to visualize the resolved history:
 
+```
 git log --graph --oneline --all
+```
 
 ![Graph Oneline](screenshots/git-graph-oneline.png)
 
