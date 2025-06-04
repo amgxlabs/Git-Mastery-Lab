@@ -1,26 +1,20 @@
-# Git-Mastery-Lab
+# Git-User-Manual
 
-My personal Git practice lab to demonstrate a full understanding of Git version control and workflows.
-
----
 
 ## Purpose of this Repository
 
-This repository documents my structured journey to master Git.  
-It covers not only command-line usage but also real-world workflows such as branching, conflict resolution, rebasing, cherry-picking, undoing mistakes, and working with remotes.
+- This repository documents how I learned Version Control system and Git. You can also follow along by following steps and trying examples from the screenshots.
+- For me, this is kind of a personal library. I can come here anytime if I forget a command or a concept related to Git.
+- This is a practical-based documentation, so I already expect you to know the basic linux commands because I won't be covering fundamentals.
 
 ---
 
-## How to Navigate This Lab
+## How to Navigate This Repository
 
-Each folder includes:
-
-- Hands-on exercises
-- Documentation of actions and outcomes
-- Reflections on what I expected vs. what actually happened
-- Explanations of core concepts in my own words
-
-You can explore the folders sequentially or focus on specific areas of interest.
+- Firslty, read the Basic-Concepts.md file because it explains all the theory you will need for it.
+- Do the labs yourself, don't just read.
+- Copy the commands and try them in your machine, just reading will paralyze you.
+- Follow the order of folders, if you jump to a random topic then I don't you will be able to get it.
 
 ---
 
@@ -36,24 +30,16 @@ You can explore the folders sequentially or focus on specific areas of interest.
 | 05-Advanced-Features | Rebasing, cherry-picking, squash merging |
 | 06-Git-Internals | Exploring HEAD, staging area, reset, reflog |
 | 07-Merge-Conflict-Lab | Creating and resolving intentional merge conflicts |
-| 08-Final-Reflections | My personal insights and key takeaways |
 
 ---
 
-## What I Learned
+## 
 
-This project has helped me:
+## Contact me
 
-- Gain a deep understanding of how Git works
-- Develop confidence using both basic and advanced Git workflows
-- Build troubleshooting skills for resolving real-world version control issues
-- Prepare for collaborative software development environments
+- Amritpal Singh Gill
+- LinkedIn: https://www.linkedin.com/in/amritgillx/
+- Contact-Email: amritgill7494@gmail.com
 
 ---
-
-## Contact
-
-Amritpal Singh Gill
-LinkedIn: https://www.linkedin.com/in/amritgillx/
-Contact-Email: amritgill7494@gmail.com
 
