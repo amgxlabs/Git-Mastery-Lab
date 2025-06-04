@@ -33,7 +33,12 @@
 
 ---
 
-## 
+## Overall Personal Experience
+
+Before this project, I saw Git as a confusing tool mainly used to upload or download files from GitHub, with no real understanding of version control or its role in team workflows. Now, I understand Git’s internal workings—how to set up and manage repositories, track and commit changes, work with branches, merge or rebase strategically, and recover from mistakes using tools like reflog and reset.
+This project turned Git from something I avoided into a powerful tool I feel confident using in both personal and team environments—making this a valuable learning experience.
+
+---
 
 ## Contact me
 
