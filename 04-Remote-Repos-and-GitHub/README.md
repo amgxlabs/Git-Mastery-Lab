@@ -17,8 +17,10 @@ I created a new remote repository on GitHub named `remote-lab`.
 
 I cloned the remote repository using SSH:
 
+```
 git clone git@github.com:amritgillx/remote-lab.git
 cd remote-lab
+```
 
 ![Remote Lab Cloned](screenshots/git-remote-lab-cloned.png)
 
@@ -28,10 +30,12 @@ cd remote-lab
 
 I created a new file locally, committed it, and pushed it to the remote repository:
 
+```
 echo "First file added locally" > file.txt
 git add file.txt
 git commit -m "Add file.txt"
 git push origin main
+```
 
 ![File Pushed](screenshots/git-file-pushed.png)
 
@@ -47,7 +51,9 @@ I manually edited `file.txt` directly from the GitHub web interface and committe
 
 I then pulled the remote changes to my local repository:
 
+```
 git pull origin main
+```
 
 ![File Pulled Locally](screenshots/git-file-pulled.png)
 
